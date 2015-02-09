@@ -1,5 +1,7 @@
 # Searching Twitter for America's National Pastime
 
+![](http://dave.ly/stuff/baseball/screenshots/screenshot_redsox.png)
+
 ## What is this?
 
 A realtime list of recent tweets that mention various Major League Baseball teams that automatically refreshes ever 30 seconds. By default, this searches for any any tweet that mentions one of the official Twitter accounts for an MLB team. There are additional options to filter by team and the script will search for mentions of the team, and in some cases certain players (e.g., Hunter Pence on the Giants and Yasiel Puig on the Dodgers).
@@ -12,7 +14,7 @@ You’ll also need to enter your Twitter API token and key in order to search tw
 
 ## Why did you do this?
 
-One of my goals for 2015 was to learn more about coding and do more of it. As of late, I’ve been really focused on working with JavaScript. It follows up on an earlier project that I was working on ([solving Sudoku puzzles using JavaScript](https://github.com/rockbandit/Simple-Javascript-Sudoku-Solver)). 
+One of my goals for 2015 was to learn more about coding and do more of it. As of late, I’ve been really focused on working with JavaScript. It follows up on an earlier project that I was working on ([solving Sudoku puzzles using JavaScript](https://github.com/rockbandit/Simple-Javascript-Sudoku-Solver)).
 
 This goal of this project was to rapidly build out a web app that could search and parse publicly available data (e.g., tweets!) for mentions of particular baseball teams while using various jQuery and JavaScript libraries. I could see this app having potentially wider uses beyond baseball such as returning the latest tweets from an event or hashtag.
 
