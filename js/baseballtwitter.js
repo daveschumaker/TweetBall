@@ -158,7 +158,7 @@ var teams = {
     "color" : "#001742"
   },
   "Twins" : {
-    "searchQuery" : "#twins OR @twins",
+    "searchQuery" : "#MNTwins OR @twins OR from:twins",
     "icon" : "min",
     "color" : "#C6011F"
   },
