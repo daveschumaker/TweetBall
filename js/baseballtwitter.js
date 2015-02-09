@@ -68,12 +68,12 @@ var teams = {
     "color" : "#A71930"
   },
   "Dodgers" : {
-    "searchQuery" : "#dodgers OR dodgers OR @dodgers OR \"Clayton Kershaw\" OR \"Yasiel Puig\"",
+    "searchQuery" : "#dodgers OR dodgers OR @dodgers OR \"Clayton Kershaw\" OR \"Yasiel Puig\" -HSBC -tax",
     "icon" : "lad",
     "color" : "#083C6B"
   },
   "Giants" : {
-    "searchQuery" : "#sfgiants OR SFGiants OR Giants OR @sfgiants OR \"SF Giants\" OR \"Hunter Pence\" OR \"Buster Posey\" OR \"Bruce Bochy\"",
+    "searchQuery" : "#sfgiants OR SFGiants OR \"SF Giants\" OR @sfgiants OR \"SF Giants\" OR \"Hunter Pence\" OR \"Buster Posey\" OR \"Bruce Bochy\" -Eli -NY -Manning",
     "icon" : "sfn",
     "color" : "#F2552C"
   },
