@@ -1,0 +1,42 @@
+  .userName {
+    color: #C0C0C0;
+  }
+
+  .tweetTime {
+    float: right;
+    margin-right: 20px;
+  }
+
+  .tweetInfo {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    width: auto !important;
+    font-size: .9em;
+  }
+
+  #teamColors {
+    display: block;
+    color: #FFFFFF;
+    background-color: #083C6B;
+    height: 50px;
+    width: 100%;
+  }
+
+  #teamHeader {
+    margin-top: 5px;
+    font-weight: bold;
+    height: 50px;
+  }
+
+  .tweet {
+    display:inline-block;
+    margin-top: 10px;
+  }
+
+  .images img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-top: -10px;
+    padding-bottom: 20px;
+  }

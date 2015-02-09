@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Twitter's National Pastime</title>
+  <meta name="description" content="Live Twitter updates about all your favorite baseball teams">
+  <meta name="author" content="Dave Schumaker">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/jPushMenu.css">
+  <link rel="stylesheet" href="css/bbclub-font.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="js/jPushMenu.js"></script>
+  <script src="js/moment.js"></script>
+  <script src="js/livestamp.min.js" type="text/javascript"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <div id="teamColors">
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns">
+            <div style="margin-top:5px;"><h4><a href="index.html" style="color:white">Twitter's National Pastime</a></h4></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="container">
+    <div class="row">
+      <div class="twelve columns">
+        <div id="about">
+
+          <h5>What is this?</h5>
+
+          <p>Created by <a href="http://twitter.com/davely" target="_blank">@davely</a></p>
+
+          <p>A realtime list of recent tweets that mention various Major League Baseball teams that automatically refreshes ever 30 seconds. By default, this searches for any any tweet that mentions one of the official Twitter accounts for an MLB team. There are additional options to filter by team and the script will search for mentions of the team, and in some cases certain players (e.g., Hunter Pence on the Giants and Yasiel Puig on the Dodgers).</p>
+
+          <h5>Why did you do this?</h5>
+
+          <p>One of my goals for 2015 was to learn more about coding and do more of it. As of late, I’ve been really focused on working with JavaScript. It follows up on an earlier project that I was working on (<a href="https://github.com/rockbandit/Simple-Javascript-Sudoku-Solver">solving Sudoku puzzles using JavaScript</a>). </p>
+
+          <p>This goal of this project was to rapidly build out a web app that could search and parse publicly available data (e.g., tweets!) for mentions of particular baseball teams while using various jQuery and JavaScript libraries. I could see this app having potentially wider uses beyond baseball such as returning the latest tweets from an event or hashtag.</p>
+
+          <h5>Libraries and frameworks used</h5>
+
+          <ul>
+          <li><a href="http://getskeleton.com/">Skeleton</a> - Used as a responsive boilerplate to rapidly build out the site and make sure it worked on both desktop and mobile devices.</li>
+          <li><a href="http://daigofuji.github.io/bbclub-font/">bbclub-font</a> - An open source project that displays scalable team logos from all 30 MLB teams.</li>
+          <li><a href="http://takien.github.io/jPushMenu/">jPushMenu</a> - jQuery plugin to easily add the side menu that slides in from the left and allows users to choose a proper team.</li>
+          <li><a href="http://mattbradley.github.io/livestampjs/">Livestamp.js</a> - jQuery plugin to provide auto-updating time ago text (e.g., <em>posted 5 minutes ago</em>)</li>
+          <li><a href="http://momentjs.com/">Moment.js</a> - Parse, validate, manipulate, and display dates that were returned from the Twitter API.</li>
+          <li><a href="https://github.com/abraham/twitteroauth">TwitterOAuth</a> - Validate your developer token with Twitter and access its API through PHP.</li>
+          </ul>
+
+          <p>Other helpful sources:</p>
+
+          <ul>
+          <li><a href="http://www.simonwhatley.co.uk/examples/twitter/prototype/">Parsing Twitter usernames, hashtags, and URLs with JavaScript</a></li>
+          <li><a href="http://teamcolors.arc90.com/">Find HEX color approximations for your favorite sports teams</a></li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<script type="text/javascript" src="js/baseballtwitter.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-59501646-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
